@@ -49,5 +49,6 @@ public class Main {
         // Menampilkan detail pembelian pembeli
         System.out.println("\nPurchase Details:");
         buyer.displayPurchaseDetails(); // Menampilkan detail kendaraan yang dibeli
+        scanner.close(); // Close the scanner object
     }
 }
